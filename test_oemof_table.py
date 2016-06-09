@@ -9,8 +9,6 @@ This example shows basic document generation functionality.
 from pylatex import Document, Section, Subsection, Command, Tabular
 from pylatex.utils import italic, NoEscape
 
-print('test')
-
 if __name__ == '__main__':
 
     # Document with `\maketitle` command activated
