@@ -219,20 +219,6 @@ bhkw = myplot.slice_by(bus_uid="bel",
                        date_from="2012-01-01 00:00:00",
                        date_to="2012-12-31 23:00:00")
 
-# bgas_excess = myplot.slice_by(bus_uid="bgas",
-                              # type='output', obj_uid='bgas_excess',
-                              # date_from="2012-01-01 00:00:00",
-                              # date_to="2012-12-31 23:00:00")
-
-# bbiogas_excess = myplot.slice_by(bus_uid="bbiogas",
-                              # type='output', obj_uid='bbiogas_excess',
-                              # date_from="2012-01-01 00:00:00",
-                              # date_to="2012-12-31 23:00:00")
-
-# print(myplot.slice_by(bus_uid='bel', obj_uid='bel_excess'))
-# print(bgas_excess.sum())
-# print(bbiogas_excess.sum())
-
 print('pp_gas_sum: ', pp_gas.sum())
 print('demand_sum: ', demand.sum())
 print('demand_max: ', demand.max())
