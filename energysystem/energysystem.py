@@ -189,6 +189,8 @@ energysystem.restore()
 # Getting a results data frame
 myplot = tpd.DataFramePlot(energy_system=energysystem)
 
+print(myplot)
+
 storage_soc = myplot.slice_by(bus_uid='bel',
                               type='other', obj_uid='sto_simple',
                               date_from="2012-01-01 00:00:00",
