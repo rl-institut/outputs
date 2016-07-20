@@ -71,7 +71,7 @@ z_min, z_max = -np.abs(z).min(), np.abs(z).max()
 plt.imshow(z, cmap='RdBu', vmin=z_min, vmax=z_max,
            extent=[x.min(), x.max(), y.min(), y.max()],
            interpolation='nearest', origin='lower')
-plt.title('plot')
+plt.title('Jahreswerte')
 plt.colorbar()
 
 #ax = plt.subplot(2, 2, 4)
